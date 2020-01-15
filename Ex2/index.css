@@ -1,0 +1,97 @@
+html {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body{
+    background-color: #db4dff;
+    background-image: linear-gradient(to bottom right, #34e89e, #0f3443);
+    align-items: center;
+}
+
+.maintitle{
+    background-color: #ff6666;
+    background-image: linear-gradient(to bottom right, #6190E8, #A7BFE8);
+    width: 40vw;
+    height: 20vh;
+    margin-top: 10%;
+    margin-left: 30%;
+    box-shadow: 5px 5px #497ad0;
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 1px;
+}
+
+.title{
+    text-align: center;
+    font-size: 72;
+    font-family: monospace;
+    margin-top: 0px;
+    color: #e600e6;
+    text-shadow: 0px 0px 5px #0000ff;
+}
+
+.mybutton{
+    background-color: #ffff00;
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 5%;
+    box-shadow: 2px 2px 6px 2px #000000;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 45vw;
+    font-size: 24;
+}
+
+a{
+    font-size: 24;
+    color: #000000; 
+}
+a:link { 
+    text-decoration: none; 
+} 
+a:hover { 
+    text-decoration: none; 
+} 
+
+.mybutton:hover {
+    height: 42px;
+    width: 122px;
+}
+
+.card {
+    box-shadow: 2px 2px 6px 2px #000000;
+    border-radius: 10px;
+    width: 31%;
+    height: 38%;
+    background: white;
+    text-align: center;
+    font-family: monospace;
+    color: #ff0066;
+    margin-left: 20px;
+    transition: width 1s;
+    transition: height 1s;
+    background-image: linear-gradient(to bottom right, #CAC531, #F3F9A7);
+}
+
+.card:hover {
+    height: 40%;
+    width: 33%;
+}
+
+.bigcard {
+    box-shadow: 2px 2px 6px 2px #000000;
+    border-radius: 10px;
+    width: 80%;
+    height: 60%;
+    background: white;
+    text-align: center;
+    font-family: monospace;
+    color: #ff0066;
+    margin-left: 10%;
+    margin-top: 10%;
+    background-image: linear-gradient(to bottom right, #d9a7c7, #fffcdc);
+}
+
+
