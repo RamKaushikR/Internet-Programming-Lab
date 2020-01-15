@@ -2,3 +2,35 @@ body {
 	background-color: #ccffcc;
 	text-align: center;
 }
+.cv {
+	background-color: #ccffcc;
+}
+.publication_idd {
+	background-color: #6566ad;
+	text-align: left;
+	font-family: 'Courier New', Courier, monospace;
+	font-style: italic;
+}
+.publication_clef {
+	background-color: #d1c169;
+	text-align: left;
+	font-family: 'Courier New', Courier, monospace;
+	font-style: italic;
+}
+.experience {
+	background-color: #ccffcc;
+	text-align: center;
+}
+.contact {
+	background-color: lightslategray;
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+	font-style: italic;
+	margin-top: 100px;
+	margin-left: 200px;
+	margin-right: 300px;
+}
+.hover :hover{
+	color: lime;
+	cursor: wait;
+}
