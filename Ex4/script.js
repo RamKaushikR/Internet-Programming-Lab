@@ -21,6 +21,8 @@ function change3() {
 	if(!newdiv) {
 		newdiv = document.createElement('div')
 		newdiv.id = 'newdiv'
+		newdiv.setAttribute("draggable", "true")
+		newdiv.setAttribute("ondragstart", "drag(event)")
 		var body = document.querySelector("body");
 		body.appendChild(newdiv)
 	}
@@ -32,14 +34,27 @@ function change3() {
 
 function change4() {
 	var id4 = document.querySelector('#id4').value
-	var element = document.querySelector("#" + id4);
-	var body = document.querySelector("body");
+	var element = document.getElementById(id4);
 	if(id4 === 'newdiv')
-		count--;
-	body.removeChild(element);
+		count = 0;
+	element.remove()
 }
 
 function change5() {
 	var element = document.querySelector("#h5");
 	element.style = "animation: animate 3s infinite;"
+}
+
+function drag(ev) {
+	ev.dataTransfer.setData("text", ev.target.id)
+}
+
+function drop(ev) {
+	ev.preventDefault()
+	var data = ev.dataTransfer.getData("text")
+	ev.target.appendChild(document.getElementById(data))
+}
+
+function allowDrop(ev) {
+	ev.preventDefault()
 }
