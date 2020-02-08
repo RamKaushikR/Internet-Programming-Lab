@@ -37,6 +37,21 @@
 
 	<script type="text/javascript" src="./script.js"></script>
 
+	<div id="olddiv" ondrop="drop(event)" ondragover="allowDrop(event)">
+		<p id="p1" class="style3">This is a Paragraph with ID p1.</p>
+
+		<p id="p2" class="style3">
+			This whole thing starts p2.
+			<span id="s1" class="style2">This is span s1 inside p2.</span>
+			This is the end of p2.
+		</p>
+
+	</div>
+
+	<a id="a1" href="#" class="style4" ondrop="drop(event)" ondragover="allowDrop(event)">This links to a wonderful page.</a>
+	<p id="p3" class="style1" ondrop="drop(event)" ondragover="allowDrop(event)">This is p3.</p>
+	<div id="newdiv" draggable="true" ondragstart="drag(event)"></div>
+
 	<div>
 		<h2>Manipulation</h2>
 
@@ -69,21 +84,6 @@
 		<button id="change5" onclick="change5()">Change</button>
 
 	</div>
-
-	<div id="olddiv">
-		<p id="p1" class="style3">This is a Paragraph with ID p1.</p>
-
-		<p id="p2" class="style3">
-			This whole thing starts p2.
-			<span id="s1" class="style2">This is span s1 inside p2.</span>
-			This is the end of p2.
-		</p>
-
-	</div>
-
-	<a id="a1" href="#" class="style4">This links to a wonderful page.</a>
-	<p id="p3" class="style1">This is p3.</p>
-	<div id="newdiv"></div>
 
 </body>
 </html>
