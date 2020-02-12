@@ -1,0 +1,28 @@
+.style1 {
+	font-size: 20px;
+	color: #7c69a5;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.style2 {
+	font-size: 30px;
+	color: #90b337;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.style3 {
+	font-size: 40px;
+	color: #c94038;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.style4 {
+	font-size: 20px;
+	color: #407db8;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+@keyframes animate {
+	from { color: #000000; }
+	to { color: #ffffff; }
+}
